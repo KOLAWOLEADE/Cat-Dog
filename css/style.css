@@ -1,3 +1,7 @@
+body{
+    background-color: darkcyan;
+}
+
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -35,4 +39,28 @@ p{
     background-color: honeydew;
     border-radius: 4px;
 
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: solid;
+    margin: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Cat-Dog */
+h2{
+    text-align: center;
+    text-decoration: solid;
+    text-overflow: clip;
+    margin: 8px;
+    color: brown;
+}
+
+#Cat:hover{
+    cursor: pointer;
+}
+
+#Dog:hover{
+    cursor: pointer;
 }
