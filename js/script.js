@@ -31,5 +31,15 @@ $(document).ready(function(){
     
     })
 
+    $("#Cat").click(function(){
+        $(".Cat").prepend("<li>Meaow</li>")
+        $(".Dog").prepend("<li>Bark</li>")
+    })
+
+    $("#Dog").click(function(){
+        $(".Cat").prepend("<li>Meaow</li>")
+        $(".Dog").prepend("<li>Bark</li>")
+    })
+
    
 })
