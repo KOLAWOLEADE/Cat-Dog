@@ -41,5 +41,18 @@ $(document).ready(function(){
         $(".Dog").prepend("<li>Bark</li>")
     })
 
+
+
+//     $("#Cat").click(function(){
+//         $(".Cat").prepend("<li>Meaow</li>")
+//         $(".Dog").prepend("<li>Bark</li>")
+//     })
+
+//     $("#Dog").click(function(){
+//         $(".Cat").prepend("<li>Meaow</li>")
+//         $(".Dog").prepend("<li>Bark</li>")
+//     })
+
+
    
 })
